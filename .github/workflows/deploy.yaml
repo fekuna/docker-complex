@@ -15,7 +15,7 @@ jobs:
 
       - run: docker build -t fekuna/multi-client ./client
       - run: docker build -t fekuna/multi-nginx ./nginx
-      - run: docker build -t fekuna/multi-server ./nginx
+      - run: docker build -t fekuna/multi-server ./server
       - run: docker build -t fekuna/multi-worker ./worker
 
       - run: docker push fekuna/multi-client
