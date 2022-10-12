@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://json.schemastore.org/github-workflow.json": "file:///home/fekuna/public_projects/udemy-docker-course/complex/.github/workflows/deploy.yaml"
-    }
-}
